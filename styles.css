@@ -13,7 +13,7 @@ body {
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ffd900ee;
-    --text-decoration-color: #00aaff;
+    --text-decoration-color: #0af;
 }
 
 .container {
@@ -48,8 +48,7 @@ body {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
-
+@media screen and (width <= 576px) {
     .main-info,
     .contact_info_container {
         flex-direction: column;
